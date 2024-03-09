@@ -7,8 +7,6 @@
     #Hint2: This method will also help you: https://www.w3schools.com/python/ref_string_replace.asp
         #Hint3: THis method will help you: https://www.w3schools.com/python/ref_string_strip.asp
 
-import os
-
 name_content = open ("Mail-Merge-Project/Input/Names/invited_names.txt")
 names = (name_content.readlines())
 
@@ -23,5 +21,3 @@ for i in names:
     y = open(f"Mail-Merge-Project/Output/ReadyToSend/{i}.txt", "w")
     z = y.write(x)
   
-
-# print(letter)
